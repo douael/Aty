@@ -131,21 +131,3 @@
 #search_result .result_div .right-info.full{
 	width:100%;
 }
-
-@media (max-width: 479px) {
-    #jms_ajax_search.open > .dropdown-menu {
-        padding: 20px 20px;
-        left: 10%;
-        width: 80%;
-        min-height: 100px;
-    }
-
-    #search_result {
-        line-height: normal;
-    }
-
-    #jms_ajax_search.open > .dropdown-menu > a#close-search  {
-        right: 5px;
-        top: 5px;
-    }
-}

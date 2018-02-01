@@ -25,12 +25,12 @@
 {include file="$tpl_dir./errors.tpl"}
 
 {if isset($category)}
-	{if $category->id AND $category->active}
+	{if $category->id AND $category->active}					
 		{if $products}
 		<div class="filters-panel">
 			<div class="row">
 				<div class="sort-select col-lg-6 col-md-6 col-sm-7 col-xs-8">
-					{include file="./product-sort.tpl"}
+					{include file="./product-sort.tpl"}				
 				</div>
 				<div class="view-modes col-lg-6 col-md-6 col-sm-5 col-xs-4">
 					<a class="view-grid" href="#">
@@ -47,7 +47,6 @@
 			{include file="./pagination.tpl"}
 		</div>
 		{/if}
-		{hook h='myCustomCategoryHook'}
 	{elseif $category->id}
 		<div class="alert alert-warning"><button data-dismiss="alert" type="button" class="close">X</button>{l s='This category is currently unavailable.'}</div>
 	{/if}

@@ -40,7 +40,7 @@
 					{/if}
 				{/if}
 			</div>
-			<div class="col-md-12  text-center" style="margin-top:15px;">
+			<div class="col-md-12  text-center" style="margin-top:15px;margin-bottom: 20px;">
 					<h1 class="category-name ">
 						{$category->name}
 					</h1>

@@ -284,7 +284,7 @@ $(document).on('click', '.color_pick', function(e){
 	getProductAttribute();
 });
 
-/*$(document).on('change', '#quantity_wanted', function(e){
+$(document).on('change', '#quantity_wanted', function(e){
 	e.preventDefault();
 	var specificPrice = findSpecificPrice();
 
@@ -297,7 +297,7 @@ $(document).on('click', '.color_pick', function(e){
 			$('#our_price_display').text(formatCurrency(parseFloat($('#our_price_display').attr('content')), currencyFormat, currencySign, currencyBlank));
 		}
 	}
-});*/
+});
 
 $(document).on('change', '.attribute_select', function(e){
 	e.preventDefault();

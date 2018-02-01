@@ -32,15 +32,15 @@
 		<meta charset="utf-8" />
 		<title>{$meta_title|escape:'html':'UTF-8'}</title>
 		{if isset($meta_description) AND $meta_description}
-			<meta name="description" content="{$meta_description|escape:'html':'UTF-8'}" />
+			<meta name="description" content="{$meta_description|escape:'html':'UTF-8'}" />			
 		{/if}
+		
 
-
-
-		{if isset($meta_keywords) AND $meta_keywords}
+		
+		{if isset($meta_keywords) AND $meta_keywords} 
 			<meta name="keywords" content="{$meta_keywords|escape:'html':'UTF-8'}" />
 		{/if}
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
 		<meta name="generator" content="PrestaShop" />
 		<meta name="robots" content="{if isset($nobots)}no{/if}index,{if isset($nofollow) && $nofollow}no{/if}follow" />
 		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
@@ -78,23 +78,6 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
-		<!-- Smartsupp Live Chat script -->
-		<script type="text/javascript">
-		var _smartsupp = _smartsupp || {};
-		_smartsupp.key = '3c878367dd140eddaa231cab426bad42eab1fbae';
-		window.smartsupp||(function(d) {
-			var s,c,o=smartsupp=function(){
-				o._.push(arguments)};
-				o._=[];
-				s=d.getElementsByTagName('script')[0];
-				c=d.createElement('script');
-				c.type='text/javascript';
-				c.charset='utf-8';
-				c.async=true;
-				c.src='https://www.smartsuppchat.com/loader.js?';
-				s.parentNode.insertBefore(c,s);
-			})(document);
-			</script>
 	</head>
 	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso} {if $jpb_rtl}rtl{/if}">
 	{if !isset($content_only) || !$content_only}
@@ -106,14 +89,14 @@
 		<div id="page" class="clearfix">
 			{if $jpb_mobilemenu}
 			<div class="menu-wrap hidden-lg hidden-md">
-				<nav id="off-canvas-menu">
+				<nav id="off-canvas-menu">					
 					{hook h='displayTopColumn'}
-				</nav>
+				</nav>				
 				<button id="close-button" class="close-button">Close Menu</button>
 			</div>
 			{/if}
 			<div id="content-wrap">
-			<div class="content">
+			<div class="content">			
 			{if isset($HOOK_TOP) && !$content_only}{$HOOK_TOP}{/if}
 			{if $page_name !='index' && $page_name !='pagenotfound' && $page_name !='product'}
 				{include file="$tpl_dir./breadcrumb.tpl"}
@@ -125,10 +108,10 @@
 
 					<!-- Left -->
 					<aside class="{if $page_name!='product'}col-sm-4 col-md-3 col-lg-3{/if} content-aside">
-						<div class="content-aside-inner">
+						<div class="content-aside-inner"> 
 							{$HOOK_LEFT_COLUMN}
-						</div>
-					</aside>
+						</div>	
+					</aside>					
 					{/if}
 					<!-- Center -->
 					{$show_left = !$hide_left_column && !empty($HOOK_LEFT_COLUMN)}
@@ -141,11 +124,11 @@
 						{elseif ($show_left && !$show_right) || (!$show_left && $show_right)}
 							<section class="col-sm-8 col-md-9 col-lg-9" id="center_column">
 						{else}
-							<section class="content-center container" id="center_column">
+							<section class="content-center container" id="center_column">							
 						{/if}
-
-					{else}
-					<section class="content-center container" id="center_column">
+					
+					{else}					
+					<section class="content-center container" id="center_column">		
 					{/if}
-			{/if}
+			{/if}		
 	{/if}

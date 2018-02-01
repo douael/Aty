@@ -68,5 +68,3 @@ var google_remarketing_only = false;
 	<a class="button-exclusive btn btn-default" href="{$link->getPageLink('history', true)|escape:'html':'UTF-8'}" title="{l s='Go to your order history page'}"><i class="icon-chevron-left"></i>{l s='View your order history'}</a>
 </p>
 {/if}
-
-{hook h='tracking' mod='meublesfrtracking' id_order=Tools::getvalue('id_order')}

@@ -476,22 +476,3 @@ input[type="color"]:focus,
 	box-shadow: none;
 	border: 0;
 }
-
-.in_stock {
-    background-color: #81e0a8;
-    display: inline-block;
-    padding: 4px;
-    margin: 4px;
-    color: white;
-    height: 22px;
-    width: 80%;
-    line-height: 11px;
-}
-
-.in_stock_clear {
-    display: inline-block;
-    padding: 4px;
-    margin: 4px;
-    height: 36px;
-    width: 80%;
-}

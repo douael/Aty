@@ -39,9 +39,9 @@
 	{math equation="nbLi/nbItemsPerLine" nbLi=$nbLi nbItemsPerLine=$nbItemsPerLine assign=nbLines}
 	{math equation="nbLi/nbItemsPerLineTablet" nbLi=$nbLi nbItemsPerLineTablet=$nbItemsPerLineTablet assign=nbLinesTablet}
 <!-- Products list -->
-	<div id="product_list" class="product_list products-list-in-column row">
-	{$i=0}
-	{foreach from=$products item=product name=products}
+	<div id="product_list" class="product_list products-list-in-column row">			
+	{$i=0}	
+	{foreach from=$products item=product name=products}	
 		{math equation="(total%perLine)" total=$smarty.foreach.products.total perLine=$nbItemsPerLine assign=totModulo}
 		{math equation="(total%perLineT)" total=$smarty.foreach.products.total perLineT=$nbItemsPerLineTablet assign=totModuloTablet}
 		{math equation="(total%perLineT)" total=$smarty.foreach.products.total perLineT=$nbItemsPerLineMobile assign=totModuloMobile}
@@ -76,43 +76,34 @@
 								{l s="Add to cart"}
 								<span class="fa fa-spin fa-spinner"></span>
 								<span class="fa fa-check"></span>
-							</a>
+							</a>							
 							{else}
 								<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock' mod="jmspagebuilder"}">
 									{l s="Add to cart"}
 								</a>
-							{/if}
+							{/if}									
 						{/if}
 						</div>
 					</div>
 					<div class="product-info">
-						<a href="{$product.link|escape:'html'}" itemprop="url" itemprop="name">{$product.name|truncate:45:'...'|escape:'html':'UTF-8'}</a>
-						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+						<a href="{$product.link|escape:'html'}" itemprop="url" itemprop="name">{$product.name|truncate:25:'...'|escape:'html':'UTF-8'}</a>
+						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">			
 							{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 								{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
 								{hook h="displayProductPriceBlock" product=$product type="old_price"}
 								<span class="old price">
 									{displayWtPrice p=$product.price_without_reduction}
-								</span>
+								</span>								
 								{/if}
 								<span class="price new" itemprop="price">
 									{hook h="displayProductPriceBlock" product=$product type="before_price"}
 									{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
-								</span>
+								</span>	
 								{hook h="displayProductPriceBlock" product=$product type="price"}
 								{hook h="displayProductPriceBlock" product=$product type="unit_price"}
 							{/if}
 							<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 						</div>
-						{if $product.quantity >= 1}
-							<div style="text-align: center; height: 34px; position: absolute; width: 31%;">
-							    <span class="in_stock">{l s='In stock - Express delivery'}</span>
-							</div>
-							{else}
-							<div style="height: 54px; position: absolute;">
-							    <span class="in_stock_clear"></span>
-							</div>
-						{/if}
 						<div class="product-list-info">
 							<div class="list_info">
 								<!--description-->
@@ -129,12 +120,12 @@
 										{l s="Add to cart"}
 										<span class="fa fa-spin fa-spinner"></span>
 										<span class="fa fa-check"></span>
-									</a>
+									</a>							
 									{else}
 										<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock' mod="jmspagebuilder"}">
 											{l s="Add to cart"}
 										</a>
-									{/if}
+									{/if}									
 								{/if}
 								<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$product.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$product.id_product|escape:'html'}" title="{l s='Add to Wishlist'}">
 									<span class="fa fa-heart"></span>
@@ -161,5 +152,5 @@
 	{addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
 	{addJsDef comparator_max_item=$comparator_max_item}
 	{addJsDef comparedProductsIds=$compared_products}
-	<!-- /Products list -->
+	<!-- /Products list -->	
 {/if}

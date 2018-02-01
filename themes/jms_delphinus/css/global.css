@@ -3552,8 +3552,6 @@ header {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.075em;
-    display: block;
-    height: 52px;
 }
 .price {
     color: #999999;
@@ -3565,7 +3563,9 @@ header {
     margin-right: 20px;
     text-decoration: line-through;
 }
-
+.product-info {
+    padding-top: 27px;
+}
 .image_swap .product-img2 {
     left: 0;
     position: absolute;
@@ -3772,6 +3772,7 @@ header {
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    margin-bottom:20px;
 }
 .navigation-pipe .navigation-pipe {
     font-size: 0;
@@ -4559,27 +4560,4 @@ a.price_discount_delete:hover{
 	.breadcrumb .description {
     display: none;
 	}
-
-	#categories_block_left {
-		display: none;
-	}
-}
-.test{
-padding-top: 10%;
- margin-left: -30px;
- font-family: 'Karla', sans-serif;
-font-size: 16px;
-color: #999999;
-}
-@media (max-width:900px){
-.test{
-  padding-top: 0%;
-  float: left;
-  margin-left: 56%;
-}
-}
-@media (max-width:500px){
-.test{
-  margin-left: 17%;
-}
 }
