@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{cityautocomplete}jms_delphinus>cityautocomplete_2152534e5b60497f483e57b4c1ab224d'] = 'City Autocomplete';
+$_MODULE['<{cityautocomplete}jms_delphinus>cityautocomplete_09489278282d0a225176c085fb1e2d07'] = 'Complète automatiquement les champs ville et pays en fonction du code postal renseigné dans les formulaire d\'inscription et de création d\'une nouvelle adresse';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_1e0ffa4f9faa72a1bb7ba72406ca95c5'] = 'Gérer les codes postaux';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_00db7aae85aecb79c75afca7daa8f22e'] = 'Vous avez';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_cea02d315e6d66313a2c01f0a393e7eb'] = 'codes postaux pour';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_1063e38cb53d94d386f21227fcd84717'] = 'Supprimer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_c523b7fc4d8df18b47640cf91a8c06c6'] = 'Créer des codes postaux pour';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_686e697538050e4664636337cc3b834f'] = 'Créer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_52f4393e1b52ba63e27310ca92ba098c'] = 'Paramètres généraux';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_9fc3e92d011ab3d6f32df0649074bde0'] = 'Nombre maximum de résultas à afficher';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_b2df3b157974473471242f63fba87bd5'] = 'Afficher un menu déroulant ?';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_93cba07454f06a4a960172bbd6e2a435'] = 'Oui';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Non';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_9bcc9ef74a773b52c6c2140710c59bda'] = 'Envoyer un fichier CSV';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_792744786ed30c5623dd1cf0c16f4ffe'] = 'Sélectionner un fichier';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration15_91412465ea9169dfd901dd5e7c96dd99'] = 'Envoyer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_1e0ffa4f9faa72a1bb7ba72406ca95c5'] = 'Gérer les codes postaux';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_00db7aae85aecb79c75afca7daa8f22e'] = 'Vous avez';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_cea02d315e6d66313a2c01f0a393e7eb'] = 'codes postaux pour';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_1063e38cb53d94d386f21227fcd84717'] = 'Supprimer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_c523b7fc4d8df18b47640cf91a8c06c6'] = 'Créer des codes postaux pour';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_686e697538050e4664636337cc3b834f'] = 'Créer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_52f4393e1b52ba63e27310ca92ba098c'] = 'Paramètres généraux';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_9fc3e92d011ab3d6f32df0649074bde0'] = 'Nombre maximum de résultas à afficher';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_b2df3b157974473471242f63fba87bd5'] = 'Afficher un menu déroulant ?';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_93cba07454f06a4a960172bbd6e2a435'] = 'Oui';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Non';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_9bcc9ef74a773b52c6c2140710c59bda'] = 'Envoyer un fichier CSV';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_c8c36e23a7370d8939408b81a28ed920'] = 'Fichier CSV';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Sélectionner un fichier';
+$_MODULE['<{cityautocomplete}jms_delphinus>configuration_91412465ea9169dfd901dd5e7c96dd99'] = 'Envoyer';

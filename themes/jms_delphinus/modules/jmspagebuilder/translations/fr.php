@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonbannerproduct_b78a3223503896721cca1303f776159b'] = 'Titre';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonbannerproduct_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Description';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonbannerproduct_ea39f283a72650cb8a036fe91f291505'] = 'Type de produit';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonbannerproduct_bc906a7564a34f6470ccf79287a7bcaa'] = 'Total d\'articles';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonbannerproduct_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Catégorie';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_b78a3223503896721cca1303f776159b'] = 'Titre';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Description';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_bc906a7564a34f6470ccf79287a7bcaa'] = 'Total d\'articles';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_347b62b376c87e0a76820d4d6860c589'] = 'Montrer la catégorie';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_eeadbd5b5c528fddbe044962152ad419'] = 'Montrer l\'introduction';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_b78a3223503896721cca1303f776159b'] = 'Titre';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Description';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_dd7bf230fde8d4836917806aff6a6b27'] = 'Adresse';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_bcc254b55c4a1babdf1dcb82c207506b'] = 'Téléphone';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Email';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_8635ca60dd1af9b6038b4e099a41ca23'] = 'Heure d\'ouverture';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Catégorie';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonblog_d959bbe25cc020e2db5276cb42927c7c'] = 'Lire plus';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_884d9804999fc47a3c2694e49ad2536a'] = 'Adresse';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_f7a42fe7211f98ac7a60a285ac3a9e87'] = 'Téléphone';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_0c83f57c786a0b4a39efab23731c7ebc'] = 'Email';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addoncontactinfo_7cef8a734855777c2a9d0caf42666e69'] = 'Ouverture';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab2_db5bbee0cb649caceaa88f704351ac80'] = 'Derniers produits';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_15422d54ec0d47000dc86a9820a5237e'] = 'Nos produits phares';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_cd118d21c3b0b4762c6e0063661e6e45'] = 'Nouveautés';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_6229b1c0488e884dbe976251efe2ff68'] = 'Les meilleures ventes';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_b4c2b550635fe54fd29f2b64dfaca55d'] = 'Les promotions';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproducttab_48fa6c88a7a8cd88267dcdd5285a439d'] = 'Les soldes';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproductcarouselhome6_6a5373df703ab2827a4ba7facdfcf779'] = 'Ajouter à la Wishlist';
+$_MODULE['<{jmspagebuilder}jms_delphinus>addonproductcarousel_db5bbee0cb649caceaa88f704351ac80'] = 'Derniers produits';

@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{jmsmegamenu}jms_delphinus>jmsmegamenu_48fcb04924704e992028012594dad6d2'] = 'Jms MegaMenu';
+$_MODULE['<{jmsmegamenu}jms_delphinus>jmsmegamenu_2c890713377bcf06a2c0fd15673c9010'] = 'MegaMenu pour le site prestashop';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_65effd77889e8556f2591c5f77bd8294'] = 'Commande de menu invalide';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_7894ced2ce2b7c95e431ef71d8692358'] = 'ID de l\'item invalide';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_44e4ee0ccc1c83824e5a4192365324ca'] = 'Le nom est trop long';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_451084b0de874b0b0472b5c141ada184'] = 'Le nom n\'est pas défini';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_f93da15aaf70433e275f3ff1a239a352'] = 'Le menu ne peut pas être ajouté';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_cea62ebc784a5686ce14e7c1968dbde0'] = 'Le menu ne peut pas être mis à jour';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_1a1b33f0159212bf43bcb9272bc25f59'] = 'Titre du menu';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_97f08a40f22a625d0cbfe03db3349108'] = 'ID du produit';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_87d49200bfc48e0bcfd3bae27d5616f3'] = 'Page CMS';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Frabricant';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_ec136b444eede3bc85639fac0dd06229'] = 'Fournisseur';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_3135f4019bee015e2d1ae7f77f9f3f64'] = 'Html';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_e55f75a29310d7b60f7ac1d390c8ae42'] = 'Module';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_b9b371458ab7c314f88b81c553f6ce51'] = 'Crochet';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_7ad2d3619d3492f55701a1e41fe14d2d'] = 'Sélectionner un crochet';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_0f280bfee6c972f1a768bd9dd7db9c6a'] = 'Lien du menu';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_be2bebd26e88a669ed1ee40c8da6b690'] = 'JmsBlog Post';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_93971898ff048d12c1f7802b2c0d24ea'] = 'Choisir un article du blog';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_456ffd940f56b7e5c1f6d8b0018a6ee9'] = 'JmsBlog Catégorie';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_8f4313fb5d6076fe269a395a59287fcc'] = 'Choisir une catégorie de blog';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_cbaab2e0ad84b9b93d9e48b96f7f22ae'] = 'JmsBlog Tag';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_7ec272479644fa32773c6699de920051'] = 'Entrer un tag, comme : \"mode\"';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_4753fd3fbdd1a52933768c564b250ec8'] = 'JmsBlog Archive';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_101ad06743ff74a81f5a93b5be6189a2'] = 'Entrer une archive comme \"2015-09\"';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_c41a31890959544c6523af684561abe5'] = 'Cible';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Actif';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_93cba07454f06a4a960172bbd6e2a435'] = 'Oui';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Non';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_7baf0c66064d455c6dd16360c6c997f8'] = 'Informations des articles du menu';
+$_MODULE['<{jmsmegamenu}jms_delphinus>adminjmsmegamenumanager_c9cc8cce247e49bae79f15173ce97354'] = 'Sauvegarder';
